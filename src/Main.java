@@ -50,6 +50,13 @@ public class Main {
         var remains = boxerTwo % boxerOne;
         System.out.println("remains=" + remains);
 
+        var allTime = 640;
+        var oneTime = 8;
+        var workers = allTime / oneTime;
+        System.out.println("Всего работников в компании = " + workers +" человек");
+
+
+
 
 
 
