@@ -55,7 +55,9 @@ public class Main {
         var workers = allTime / oneTime;
         System.out.println("Всего работников в компании = " + workers +" человек");
 
-
+        workers = workers + 94;
+        allTime = workers * oneTime;
+        System.out.println("Если в компании работает = " + workers +" человек, то всего " + allTime +" часов работы может быть поделено между сотрудниками ");
 
     }
 }
