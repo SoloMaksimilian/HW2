@@ -47,6 +47,11 @@ public class Main {
         var difference = boxerTwo - boxerOne;
         System.out.println("difference=" + difference);
 
+        var remains = boxerTwo % boxerOne;
+        System.out.println("remains=" + remains);
+
+
+
 
     }
 }
